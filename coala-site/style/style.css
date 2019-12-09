@@ -1,0 +1,159 @@
+body {
+
+    font-family: 'Bebas Neue', cursive;
+    overflow-x: hidden;
+    margin: 0;
+}   
+
+#topbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    font-size: 13px;
+    background-color: black;
+    position: fixed;
+}
+
+.topbar_menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbar__menu__item {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+}
+
+.topbar__call-to-action {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: goldenrod;
+    padding: 5px;
+    border: goldenrod 1px solid;
+    border-radius: 5px;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+    width: 100vw;
+    background: url(../img/bg-coala.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 60px -16px white;
+}
+
+.cabeçalho:hover {
+    background-color: white;
+}
+
+.cabecalho__container {
+    margin: 0 auto;
+    text-align: right;
+    width: 430px;
+    width: 430px;
+    padding-left: 220px;
+}
+
+.cabecalho__call-to-action {
+    background-color: #FEDD6A;
+    color: rgb(116, 88, 19);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 30px;
+    border: none;
+}
+
+.cabecalho__titulo,
+.cabecalho__descricao {
+    color: white;
+    padding: 10px;
+}
+
+.cabecalho__titulo {
+    font-family: 'Flamenco', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.cabecalho__descricao{
+    margin-bottom: 20px;
+}
+
+/* Seção sobre */
+.sobre {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.sobre__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre__card div {
+    display: inline-block;
+    max-width: 400px;
+    color: #737373;
+    font-weight: 580px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.sobre__card img {
+    height: 123px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.sobre__card h2 {
+    text-align: left;
+}
+
+/* Seção como funciona */
+.como-funciona__conteudo {
+    font-weight: 580px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.como-funciona__conteudo span {
+    font-weight: bold;
+}
+
+.como-funciona__img {
+    width: 150px;
+}
+
+.como-funciona__passo {
+    display: inline-block;
+    color: #737373;
+    font-weight: 580px;
+    text-align: center;
+    width: 30%;
+}
